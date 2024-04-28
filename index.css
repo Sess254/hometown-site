@@ -5,24 +5,23 @@
 body {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    background: #58404C;
+    background:#58404C;
 }
 
 .hero {
     background-image: url('./images/fd.jpg');
     background-size: cover;
-    height: 400px;
-    text-align: center;
+    height: 450px;
 }
 
-#home-title {
+#hero-title {
     color: #FDC604;
     margin-top: 120px;
     background: #58404C;
     padding: 5px 10px;
 }
 
-#home-desc {
+#hero-desc {
     background: #58404C;
     margin-top: 10px;
     padding: 5px 10px;
@@ -31,35 +30,40 @@ body {
 }
 
 
-.header {
+.hero-header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-#img {
-    width: 180px;
-    height: 180px;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-#activity-two, #activity-one {
-    margin-right: 100px;
-}
-
 .activities-section {
-    background: #58404C;
-
+    height: 400px;
 }
 
-#activities-title {
-    margin-bottom: 20px;
-    margin-top: 10px;
+#activity-title {
+    color: #FDC604;
+    margin: 20px 0 5px 0;
+}
+
+#img{
+    width: 300px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.activities-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#activity-desc {
     color: #F7CB80;
+    width: auto;
 }
+
+.activity-one {
+    width: auto;
+    padding: 15px;
+}
+
