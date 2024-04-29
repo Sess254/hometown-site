@@ -5,7 +5,7 @@
 body {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    background: whitesmoke;
+    background: linear-gradient(#DBDDDF, whitesmoke);
 }
 
 .hero {
@@ -42,7 +42,6 @@ body {
 .activities-section {
     margin-bottom: 20px;
     max-width: 100%;
-    background: #DBDDDF;
 }
 
 #activity-title {
