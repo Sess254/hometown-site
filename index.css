@@ -5,25 +5,26 @@
 body {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    background: #AD926C;
+    background: whitesmoke;
 }
 
 .hero {
     background-image: url('./images/pexels-amurephotography-9833516.jpg');
     background-size: cover;
     height: 550px;
+    max-width: 100%;
 }
 
 #hero-title {
     color: #ffff;
     margin-top: 120px;
-    background: #AD926C;
+    background: #262F13;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 #hero-desc {
-    background: #262f13;
+    background: #262F13;;
     margin-top: 10px;
     padding: 5px 10px;
     color: #ffff;
@@ -39,12 +40,14 @@ body {
 }
 
 .activities-section {
-    height: 400px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    background: #DBDDDF;
 }
 
 #activity-title {
     color: #262f13;
-    margin: 20px 0 5px 0;
+    padding-top: 10px;
 }
 
 #img{
@@ -68,3 +71,24 @@ body {
     padding: 10px;
 }
 
+#prof-pic {
+    width: 150px;
+}
+
+
+.guide {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #E4E6E9;
+    border-radius: 5px;
+    border-bottom: 6px solid #C0C8D4;
+}
+
+#guide-info {
+    color: #262f13;
+    padding: 10px;
+}
